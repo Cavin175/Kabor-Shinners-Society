@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    padding-left: 0;
+    margin: 0;
+}
+body{
+    background-color: none;
+    justify-content: center;
+    background-image: url(Images/logo9.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1{
+    justify-content: center;
+    margin-left: 30%;
+    float: right;
+    margin-right: 5%;
+    color: white;
+  }
+  p{
+    margin-left: 45%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    float: right;
+    margin-right: 10%;
+    color: white;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  button{
+    margin-left: 40%;
+    background-color: brown;
+    height: 70px;
+    width: 200px;
+    border-radius: 30px;
+    display: flex;justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+    box-shadow:50px;
+    box-sizing: border-box;
+    border-color: greenyellow;
+  }
+  button:hover{
+    transform: scale(1.3);
+    z-index: 2;
+    box-shadow: 0 5px 50px 0 #1915f4 inset, 0 5px 50px 0 #1915f4,
+    0 5px 50px 0 #1915f4 inset, 0 5px 50px 0 #1915f4;
+    text-shadow: 0 0 5px #1915f4, 0 0 5px #1915f4;
+    letter-spacing: 5px;    
+  }
+  .container{
+    justify-content: center;
+    background-color: red;
+  }
+ img{
+    margin-left: 15%;
+    margin-top: 15%;
+    width: fit-content;
+  }
+  .box img{
+    /* width: 200px; */
+    margin: 0 10px;
+    box-shadow: 0 0 20px rgba(red, green, blue, alpha);
+  }
+ 
+  .box:hover{
+    transform: scale(1.3);
+    z-index: 2;
+  }
+
+.navbar{
+    background-color: darkgreen;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.nav-list{
+    list-style-type: none;
+}
+
+.nav-list .list-item{
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: aqua;
+    cursor: grab;
+}
